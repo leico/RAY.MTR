@@ -33,8 +33,11 @@ Max5、Max6で動作します。
 externals内のRAY.MTRフォルダをパスの通っているフォルダ(1)にインストールして下さい。
 
 > 1.
+> 
 > JP:オプション -> ファイルの初期設定
+> 
 > EN:Options  -> File Preferences
+>
 > で指定されているフォルダです。
 
 簡単な使用方法
@@ -44,8 +47,9 @@ sampleRAY.MTR.maxpatを開いて中のbpatcherをコピペすればどのパッ�
 bpatcherの引数
 ---
 bpatcherインスペクタ内のargumentsはLemurとの通信用の引数を入れています。
-0. udpreceiveのポート番号
-0. udpsend   の送信先IP
-0. udpsend   の送信先ポート
+
+1. udpreceiveのポート番号
+2. udpsendの送信先IP
+3. udpsendの送信先ポート
 
 
